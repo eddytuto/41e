@@ -26,3 +26,9 @@
     - On ne peut pas changer de branche si la branche courante n'a pas été «commit» valider 
     - `git checkout « id du commit »`
     - `git checkout « étiquette du commit »`   
+---
+### Serveur distant
+- Pour définit un alias identifiant le serveur distant
+    - `git remote add 41e https://github.com/eddytuto/41e.git`
+    - `git remote -v` // voir la liste des alias de serveur distant
+    - `git push 41e main` // pousser mon dernier commit vers la branche main du dépôt distant 41e
