@@ -32,8 +32,10 @@
     - `git remote add 41e https://github.com/eddytuto/41e.git`
     - `git remote -v` // voir la liste des alias de serveur distant
     - `git push 41e main` // pousser mon dernier commit vers la branche main du dépôt distant 41e
+    - `git pull 41e main` // récupérer la dernière version de notre dépôt
 ---    
 ## Pour créer une étiquette
 - `git tag v1.0.0` // Création de l'étiquette v1.0.0
 - `git tag` // permet d'afficher l'ensemble des tag (étiquette)   
 - `git checkout v1.0.0` // pour se déplacer dans le commit v1.0.0 (déplace le pointeur «head»)
+
