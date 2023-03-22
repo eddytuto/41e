@@ -26,3 +26,6 @@
     - On ne peut pas changer de branche si la branche courante n'a pas été «commit» valider 
     - `git checkout « id du commit »`
     - `git checkout « étiquette du commit »`   
+- Pour créer une étiquette
+    - `git tag v1.0.0` // Création de l'étiquette v1.0.0
+    - `git tag` // permet d'afficher l'ensemble des tag (étiquette)   
