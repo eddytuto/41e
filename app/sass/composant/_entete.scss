@@ -33,7 +33,12 @@
     justify-content: flex-end;
 }
 /* ---------------------------------  .menu */
-
+.burger {
+    display : block;
+    @media screen and (min-width:  580px) {
+        display : none; 
+    }
+}
 
 #chkBurger:checked ~ .menu {
     transform : translateX(0);
@@ -47,6 +52,7 @@
     flex-direction: column;
     align-items: end;
     @media screen and (min-width: 580px) {
+        transform : translateX(0);
         position : static;
         flex-direction: row;
         align-items: center;
