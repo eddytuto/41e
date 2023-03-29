@@ -44,3 +44,4 @@
 
 ## Modifier le dernier message du commit
 - `git commit --amend` 
+- Permet d'éditer le message du commit dans l'éditeur par défaut du git local
