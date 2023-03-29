@@ -39,3 +39,8 @@
 - `git tag` // permet d'afficher l'ensemble des tag (étiquette)   
 - `git checkout v1.0.0` // pour se déplacer dans le commit v1.0.0 (déplace le pointeur «head»)
 
+## pour changer l'éditeur par défaut pour vsc
+- `git config --global core.editor "code --wait"`
+
+## Modifier le dernier message du commit
+- `git commit --amend` 
