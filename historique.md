@@ -41,6 +41,8 @@
 
 ## pour changer l'éditeur par défaut pour vsc
 - `git config --global core.editor "code --wait"`
+- Commande fonctionne uniquement sur Windows
 
 ## Modifier le dernier message du commit
-- `git commit --amend` 
+- `git commit --amend`
+- Permet de modifier le message du dernier commmit 
